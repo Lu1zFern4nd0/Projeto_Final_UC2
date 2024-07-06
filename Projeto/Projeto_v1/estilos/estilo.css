@@ -1,0 +1,115 @@
+nav ul{
+    list-style: none; /* deixa as opções sem númerações antes */
+    display: flex; /* mantem as opções na horizontal */
+    background-color:rgb(0, 0, 0); /* cor de fundo da borda do topo */
+    height: 160px; /* tamanho da borda do topo */
+    align-items: center; /*alinha as opções no centro da borda do topo*/
+    margin: 0%; /* tamanho da borda do topo */
+}
+a{
+    margin-right: 180px; /* espaçamento das opções no topo */
+    text-decoration: none; /* deixa as opções do topo sem sublinhamento */
+    color:aliceblue; /* cor das opções do topo */
+    font-family:Arial, Helvetica, sans-serif ; /* tipo da fonte das opções no topo */
+    font-size: 45px; /* tamanho da fonte das opções no topo */
+}
+.logo {
+    position: absolute;
+    top: 1px; /* Ajusta a distância da logo a partir do topo da página*/
+    left: 10px; /* Ajusta a distância da logo a partir da esquerda da página */
+    
+}
+body{
+    margin: 0; /* Tira as margens da página */
+}
+#login{
+    display: flex; /* deixa as opções de login no centro (login) */
+    flex-direction: column; /* deixa as opçoes em forma de colona (login) */
+    align-items: center; /* alinha os itens no centro (login) */
+}
+form{
+    display: flex; /* deixa as opções em baixo uma das outras (login) */
+    flex-direction: column; /* deixa as opçoes em forma de colona (login) */
+    width: 500px; /* tamanho da largura das caixas de formulário (login) */
+}
+form input{
+    margin: 4px; /* espaço da opção que esta pedindo e da caixa de resposta (login) */
+    border-radius: 0px; /* serve para arredondadr as bordas das caixas de resposta (login)  */
+    border-style:solid; /* muda a aparência das caixas de resposta (login) */
+    height: 25px; /* tamanho da altura das caixas de resposta (login) */
+}
+label{
+    font-size: 50px; /* tamanho da fonte das perguntas (login) */
+}
+#texto_um{
+    position: absolute;
+    top: 620px; /* Ajusta a distância do texto1 em relação ao topo (home) */
+    left: 100px; /* Ajusta a distância do texto1 em relação a lateral esquerda (home) */
+    font-size: 72px; /* tamanho da fonte do texto1 (home) */
+    color:rgb(4, 255, 25); /* cor do texto1 (home) */
+}
+#imagem_um{
+    position: absolute;
+    top: 420px; /* Ajusta a distância da imagem em relação ao topo (home) */
+    left: 750px; /* Ajusta a distância da imagem em relação a lateral esquerda (home) */
+    width: 500px; /* tamanho da imagem (home) */
+}
+
+#texto_dois{
+    position: absolute;
+    top: 1200px; /* Ajusta a distância do texto2 em relação ao topo (home) */
+    left: 750px; /* Ajusta a distância do texto2 em relação a lateral esquerda (home) */
+    font-size: 72px; /* tamanho da fonte do texto2 (home) */
+    color:rgb(255, 0, 98); /* cor do texto2 (home) */
+}
+#imagem_dois{
+    position: absolute;
+    top: 1000px; /* Ajusta a distância da imagem em relação ao topo (home) */
+    left: 100px; /* Ajusta a distância da imagem em relação a lateral esquerda (home) */
+    width: 500px; /* tamanho da imagem (home) */
+}
+#texto_tres{
+    position: absolute;
+    top: 1780px; /* Ajusta a distância do texto3 em relação ao topo (home) */
+    left: 100px; /* Ajusta a distância do texto3 em relação a lateral esquerda (home) */
+    font-size: 72px; /* tamanho da fonte do texto3 (home) */
+    color:rgb(255, 0, 98); /* cor do texto3 (home) */
+}
+#imagem_tres{
+    position: absolute;
+    top: 1580px; /* Ajusta a distância da imagem em relação ao topo (home) */
+    left: 750px; /* Ajusta a distância da imagem em relação a lateral esquerda (home) */
+    width: 500px; /* tamanho da imagem (home) */
+}
+footer{
+    color: rgb(255, 255, 255); /* cor da letra do rodapé */
+    font-size: 30px; /* tamanho da fonte do rodapé */
+    background-color: rgb(0, 0, 0); /* cor de fundo do rodapé */
+}
+
+#index{ /*rodapé (home) fiz separado pq estava dando erro de posição*/
+    position: absolute;
+    top: 2160px; /* Ajusta a distância do rodapé em relação ao topo (home) */
+    color: rgb(255, 255, 255); /* cor da letra do rodapé (home) */
+    font-size: 30px; /* tamanho da fonte do rodapé (home) */
+    background-color: rgb(0, 0, 0); /* cor de fundo do rodapé (home) */
+    width: 100%; /* faz o fundo do rodapé ir totalmente da esquerda para a direita (home) */
+}
+body{
+    background-color: rgb(29, 24, 24); /* cor de fundo da página */
+}
+form{
+    color:rgb(255, 255, 255);
+}
+#animes{
+    color:rgb(255, 255, 255);
+}
+#filmes{
+    color:rgb(255, 255, 255);
+}
+#series{
+    color:rgb(255, 255, 255);
+}
+#login{
+    color:rgb(255, 255, 255);
+}
