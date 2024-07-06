@@ -37,14 +37,53 @@
 
 </header>
 
-<h1 id="favoritos">Favoritos</h1>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Itens Favoritos</title>
+<style>
+    /* Estilos opcionais */
+</style>
+</head>
+<body>
+  <main id="favoritos">
+<ul id="lista-favoritos">
+    <!-- Aqui serão listados os itens favoritos -->
+</ul>
 
-
-
+<!-- Formulário para adicionar novos itens -->
+<form id="form-adicionar">
+    <label for="novo-item">Novo Item:</label>
+    <input type="text" id="novo-item" name="novo-item" required>
+    <button type="submit">Adicionar</button>
+    <button type="reset">Apagar</button>
+</form>
+</main>
 <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
   crossorigin="anonymous"></script>
+
+  <script>
+  document.getElementById('form-adicionar').addEventListener('submit', function(event) {
+    event.preventDefault(); // Evita o envio padrão do formulário
+    
+    // Captura o valor do novo item
+    let novoItem = document.getElementById('novo-item').value.trim();
+
+    if (novoItem !== '') {
+        // Cria um novo elemento de lista
+        let li = document.createElement('li');
+        li.textContent = novoItem;
+
+        // Adiciona o novo item à lista de favoritos
+        document.getElementById('lista-favoritos').appendChild(li);
+
+        // Limpa o campo de entrada
+        document.getElementById('novo-item').value = '';
+    }
+});
+</script>
+
 </body>
 <footer>Rodapé - © 2024</footer>
 </html>

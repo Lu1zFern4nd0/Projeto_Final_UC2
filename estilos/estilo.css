@@ -90,3 +90,11 @@ a{
     text-align: center;
     color: aliceblue;
 }
+#favoritos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav ul li a:hover{
+    color: #00aeff;
+}
